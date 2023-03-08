@@ -70,6 +70,7 @@
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
+            this.textBox16 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -420,11 +421,19 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(706, 219);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(128, 26);
+            this.textBox16.TabIndex = 43;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1589, 642);
+            this.Controls.Add(this.textBox16);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox15);
             this.Controls.Add(this.textBox14);
@@ -518,6 +527,7 @@
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox textBox16;
     }
 }
 
