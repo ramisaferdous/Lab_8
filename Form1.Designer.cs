@@ -71,6 +71,7 @@
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -428,11 +429,19 @@
             this.textBox16.Size = new System.Drawing.Size(128, 26);
             this.textBox16.TabIndex = 43;
             // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(706, 262);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(128, 26);
+            this.textBox17.TabIndex = 44;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1589, 642);
+            this.Controls.Add(this.textBox17);
             this.Controls.Add(this.textBox16);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox15);
@@ -528,6 +537,7 @@
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox textBox17;
     }
 }
 
